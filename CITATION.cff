@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite this software release and acknowledge the original data providers."
-title: "Seasonal conditioning improves distribution-based hydrological similarity: reproduction materials"
+title: "Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection: reproduction materials"
 type: software
 version: "1.0.0"
 date-released: "2026-09-18"

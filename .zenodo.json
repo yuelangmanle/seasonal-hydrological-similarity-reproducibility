@@ -1,5 +1,5 @@
 {
-  "title": "Seasonal conditioning improves distribution-based hydrological similarity: reproduction materials",
+  "title": "Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection: reproduction materials",
   "description": "Version 1.0.0 of the reproducibility software and derived inputs for monthly conditional Wasserstein hydrological similarity. Includes fixed station-separated evaluations, regional comparisons, GEnS temperate-zone analyses, monthly location/shape ablation, plotting scripts and a raw Caravan rebuild workflow. MIT applies to original software only; derived data retain source rights as described in RIGHTS.md and DATA_PROVENANCE.md.",
   "upload_type": "software",
   "version": "1.0.0",
