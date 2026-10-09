@@ -1,0 +1,14 @@
+{
+  "FDC": "FDC_fdc0",
+  "TIMING": "TIMING_fdc0.25",
+  "levels_0": "levels_0_fdc0.25",
+  "levels_0.25": "levels_0.25_fdc0",
+  "levels_1": "levels_1_fdc0",
+  "levels_4": "levels_4_fdc0",
+  "transitions_0": "transitions_0_fdc0",
+  "transitions_0.25": "transitions_0.25_fdc0",
+  "transitions_1": "transitions_1_fdc0",
+  "transitions_4": "transitions_4_fdc0",
+  "monthly_quantiles": "monthly_quantiles_fdc0",
+  "original_OT": "original_OT_fdc0.25"
+}

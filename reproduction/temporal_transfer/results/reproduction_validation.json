@@ -1,0 +1,28 @@
+{
+  "temporal_replicates": 5000,
+  "snow_replicates": 2000,
+  "checks": {
+    "3yr": {
+      "n_test": 460,
+      "index_gauge_site_mapping": "passed",
+      "aggregate_mean": "passed"
+    },
+    "5yr": {
+      "n_test": 467,
+      "index_gauge_site_mapping": "passed",
+      "aggregate_mean": "passed"
+    },
+    "10yr": {
+      "n_test": 484,
+      "index_gauge_site_mapping": "passed",
+      "aggregate_mean": "passed"
+    },
+    "5yr_shifted": {
+      "n_test": 505,
+      "index_gauge_site_mapping": "passed",
+      "aggregate_mean": "passed"
+    }
+  },
+  "legacy_main_replay": "passed",
+  "future_label_roles": "documented"
+}

@@ -1,0 +1,21 @@
+{
+  "analysis": "early annual-FDC donor monthly mismatch predicts future signature-transfer gain",
+  "locked_specification": "one-variable standardized ridge with intercept, alpha=1; no variable/threshold/hyperparameter selection",
+  "feature_window": [
+    1981,
+    1990
+  ],
+  "label_window": [
+    2001,
+    2010
+  ],
+  "feature": "mean pure monthly conditional squared distance from target to ten early annual-log-FDC nearest donor records, divided by eligible donor-donor median monthly distance",
+  "outcome": "mean four donor-IQR-normalized absolute FDC errors minus pure monthly-W2 errors; positive favors monthly W2",
+  "base_methods": "pure annual log-FDC and pure monthly conditional W2; 10 donor-record median; no FDC mixture tuning",
+  "training": "eligible original calibration physical sites only; standardization on training rows only",
+  "evaluation": "original test physical sites; never used for feature/model/threshold selection",
+  "policy": "select W2 if predicted gain > 0, otherwise select FDC; zero fixed before scoring",
+  "domain_extrapolation": "for each held-out source dataset, exclude all its physical sites from donors/calibration; fit on remaining calibration records and test only original test records of held-out dataset; no retuning",
+  "uncertainty": "5000 physical-site cluster bootstrap replicates on frozen predictions; record-weighted estimand",
+  "interpretation": "revision-stage hypothesis test on existing public data, not independent prospective cohort or preregistered confirmation"
+}

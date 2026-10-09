@@ -1,0 +1,5 @@
+﻿attribute,donor_IQR,n_donor_records,n_calibration_records,n_test_records
+bfi,0.1582277029694542,1448,483,485
+rb_flashiness,0.19569677555957898,1448,483,485
+runoff_ratio,0.2514074267869233,1448,483,485
+snow_fraction,0.18512602463347683,1448,483,485

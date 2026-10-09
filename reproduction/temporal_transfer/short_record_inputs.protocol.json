@@ -1,0 +1,103 @@
+{
+  "n_records": 2522,
+  "windows": {
+    "3yr": [
+      1981,
+      1983
+    ],
+    "5yr": [
+      1981,
+      1985
+    ],
+    "10yr": [
+      1981,
+      1990
+    ],
+    "5yr_shifted": [
+      1986,
+      1990
+    ]
+  },
+  "future_years": [
+    2001,
+    2010
+  ],
+  "feature_shapes": {
+    "3yr": {
+      "fdc": [
+        2522,
+        199
+      ],
+      "monthly": [
+        2522,
+        384
+      ],
+      "profile": [
+        2522,
+        12
+      ]
+    },
+    "5yr": {
+      "fdc": [
+        2522,
+        199
+      ],
+      "monthly": [
+        2522,
+        384
+      ],
+      "profile": [
+        2522,
+        12
+      ]
+    },
+    "10yr": {
+      "fdc": [
+        2522,
+        199
+      ],
+      "monthly": [
+        2522,
+        384
+      ],
+      "profile": [
+        2522,
+        12
+      ]
+    },
+    "5yr_shifted": {
+      "fdc": [
+        2522,
+        199
+      ],
+      "monthly": [
+        2522,
+        384
+      ],
+      "profile": [
+        2522,
+        12
+      ]
+    }
+  },
+  "split_unit": "physical site_id",
+  "split_fraction": {
+    "donor": 0.6,
+    "calibration": 0.2,
+    "test": 0.2
+  },
+  "split_counts_records": {
+    "donor": 1518,
+    "calibration": 497,
+    "test": 507
+  },
+  "future_gate": "68% finite discharge, precipitation and temperature in 2001-2010 plus finite four labels",
+  "source_raw": "Caravan v1.6 CSV input supplied separately",
+  "information_roles": {
+    "early_discharge": "retrieval features, donor-distance scaling and similarity rankings",
+    "future_donor_labels": "analog predictions and donor-label IQR normalization",
+    "future_calibration_labels": "mixture-weight selection",
+    "future_test_labels": "prespecified label-availability gate and final held-out scoring only"
+  },
+  "prediction_design": "retrospective time-separated label transfer with physical-site-disjoint training and test groups"
+}

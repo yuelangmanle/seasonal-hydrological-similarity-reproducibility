@@ -1,0 +1,16 @@
+﻿region_id,region_label,n_test_records,comparator_id,comparator_label,relative_improvement_percent
+camels,CAMELS-US,523,FDC,Conventional FDC,20.450958205469092
+camels,CAMELS-US,523,FDC_TIMING,FDC + allocation,5.7153398802411655
+camels,CAMELS-US,523,original_OT,Original OT + FDC,5.296537605750951
+camelsbr,CAMELS-BR,786,FDC,Conventional FDC,21.462892704074964
+camelsbr,CAMELS-BR,786,FDC_TIMING,FDC + allocation,14.361544954399264
+camelsbr,CAMELS-BR,786,original_OT,Original OT + FDC,8.450653682910525
+camelscl,CAMELS-CL,154,FDC,Conventional FDC,-17.76943960729391
+camelscl,CAMELS-CL,154,FDC_TIMING,FDC + allocation,4.141354516447238
+camelscl,CAMELS-CL,154,original_OT,Original OT + FDC,0.2598338105111009
+hysets,HYSETS,327,FDC,Conventional FDC,25.338562357659868
+hysets,HYSETS,327,FDC_TIMING,FDC + allocation,7.057541571069281
+hysets,HYSETS,327,original_OT,Original OT + FDC,14.132728486260515
+lamah,LamaH-CE,626,FDC,Conventional FDC,16.93602255888593
+lamah,LamaH-CE,626,FDC_TIMING,FDC + allocation,-2.106865362334176
+lamah,LamaH-CE,626,original_OT,Original OT + FDC,-10.429899015827647

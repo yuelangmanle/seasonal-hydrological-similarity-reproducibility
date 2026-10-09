@@ -1,0 +1,8 @@
+{
+  "epsilon": 0.01,
+  "max_iter": 100000,
+  "required_marginal_residual": 1e-07,
+  "observed_cross_pair_batch_residual": 0.0001154462620264092,
+  "decision": "No transfer score reported for epsilon=0.01; standard scaling is unreliable at this epsilon. Full log-domain implementation is required before ranking this configuration.",
+  "scope": "This does not invalidate the independently checked epsilon=0.05 comparator."
+}

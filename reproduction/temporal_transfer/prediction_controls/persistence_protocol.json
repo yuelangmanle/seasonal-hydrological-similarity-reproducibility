@@ -1,0 +1,9 @@
+{
+  "analysis": "direct early target signature persistence predicts 2001-2010 labels; compared with current calibrated W2 candidate",
+  "prediction": "predict each later label by the same label calculated from the early target window; no fit or tuning",
+  "information": "BFI and flashiness require early target discharge; runoff ratio and temperature-threshold snow proxy require additional early precipitation/temperature, unlike flow-only W2 retrieval",
+  "cohort": "original temporal-mask test targets; per-label finite persistence intersection; four-label score needs all early labels finite",
+  "scaling": "same eligible donor future-label IQR as temporal-mask comparator",
+  "inference": "5000 fixed-prediction physical-site bootstrap; paired W2 minus persistence error (negative favors W2)",
+  "selection": "W2 FDC weights fixed to published window selections, not retuned on persistence results"
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software release and acknowledge the original data providers."
+title: "Seasonal conditioning improves distribution-based hydrological similarity: reproduction materials"
+type: software
+version: "1.0.0"
+date-released: "2026-09-18"
+repository-code: "https://github.com/yuelangmanle/seasonal-hydrological-similarity-reproducibility"
+authors:
+  - family-names: Deng
+    given-names: Zijie
+  - family-names: Xia
+    given-names: Yu
+  - family-names: Yu
+    given-names: Jiyang
+  - family-names: Liao
+    given-names: Zhenyu
+abstract: "Derived inputs and scripts for reproducing hydrological similarity comparisons using monthly conditional Wasserstein representations, climate-stratified evaluations, temporal-transfer controls, and Caravan data reconstruction."
+license: MIT

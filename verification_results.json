@@ -1,0 +1,27 @@
+[
+  {
+    "script": "reproduction/test_seasonal_transport.py",
+    "returncode": 0,
+    "seconds": 0.3
+  },
+  {
+    "script": "reproduction/reproduce_main.py",
+    "returncode": 0,
+    "seconds": 13.8
+  },
+  {
+    "script": "reproduction/benchmark_controls/reproduce.py",
+    "returncode": 0,
+    "seconds": 3.0
+  },
+  {
+    "script": "reproduction/sensitivity_checks/reproduce_sensitivity.py",
+    "returncode": 0,
+    "seconds": 23.2
+  },
+  {
+    "script": "figures/redraw_figures.py",
+    "returncode": 0,
+    "seconds": 11.6
+  }
+]

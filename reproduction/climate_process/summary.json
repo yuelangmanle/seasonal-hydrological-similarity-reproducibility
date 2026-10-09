@@ -1,0 +1,12 @@
+{
+  "decomposition_max_abs_error": 3.191891195797325e-15,
+  "temperate_records": 787,
+  "temperate_stations": 748,
+  "temperate_donor": 479,
+  "temperate_calibration": 163,
+  "temperate_test": 145,
+  "temperate_test_stations": 139,
+  "climate_zone_disagreement_stations": 2,
+  "headline_reproduction": "passed",
+  "all_targets_have_ten_eligible_donors": true
+}

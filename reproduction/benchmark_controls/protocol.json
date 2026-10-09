@@ -1,0 +1,13 @@
+{
+  "scope": "Exploratory fixed-split supplementary checks; original four-attribute score unchanged",
+  "annual_control": "384 annual midpoint quantiles of log1p(Q/mean Q), valid nonnegative flows 1981-2010; no FDC mixture, as for annual 32/128 controls",
+  "seasonal_targets": [
+    "Circular concentration of climatological monthly-mean flow expanded uniformly over nonleap calendar days",
+    "Parde amplitude: (max monthly mean flow - min monthly mean flow) / mean of 12 monthly means"
+  ],
+  "prediction": "10-nearest-donor median; raw MAE separately, no combined seasonal score",
+  "weights": "Primary calibrated FDC weights retained: monthly=0, FDC+allocation=0.25, OT+FDC=0.25; FDC and geographic unmixed",
+  "partition": "Existing frozen 2026091601 physical-station partition",
+  "uncertainty": "5000 physical-station cluster bootstrap paired MAE differences, seed 2026091751; individual intervals",
+  "interpretation": "Same-period discharge-derived outcomes; representation alignment, not independent external validation"
+}

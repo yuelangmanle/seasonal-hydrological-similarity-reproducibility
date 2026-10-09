@@ -1,0 +1,31 @@
+{
+  "alpha_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "independently minimize four-label calibration mean absolute error for each family; smaller alpha wins ties",
+  "donor_weights_w2": {
+    "3yr": 0.25,
+    "5yr": 0.0,
+    "10yr": 0.0,
+    "5yr_shifted": 0.0
+  },
+  "donor_weights_allocation": {
+    "3yr": 0.5,
+    "5yr": 0.25,
+    "10yr": 0.25,
+    "5yr_shifted": 0.5
+  },
+  "annual_fdc": "unmixed annual log-FDC distance",
+  "allocation": "same circular W1 allocation distance squared as original experiment",
+  "scaling": "eligible later donor-label IQR; early donor-donor median distances",
+  "test": "same finite early-target-label test cohort; no retuning",
+  "inference": "5000 physical-site fixed-prediction paired bootstrap; method minus persistence and method minus W2-blend error; negative favors method",
+  "role": "control whether small persistence-blend gain is specific to full monthly distributions or generic donor shrinkage"
+}

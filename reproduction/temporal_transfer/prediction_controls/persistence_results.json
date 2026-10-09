@@ -1,0 +1,530 @@
+{
+  "3yr": {
+    "n_original_test": 460,
+    "w2_fdc_weight": 0.25,
+    "donor_iqrs": [
+      0.16891915973176996,
+      0.20366828116711466,
+      0.2628919869559573,
+      0.18541690364115432
+    ],
+    "attributes": {
+      "bfi": {
+        "n_common": 460,
+        "persistence_raw_mae": 0.024697750440640584,
+        "w2_raw_mae": 0.03835029224467622,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.01365254180403564,
+          "ci95": [
+            0.01028971677716984,
+            0.01712183053269569
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.08082293225774256,
+          "ci95": [
+            0.0609150364796337,
+            0.10136109225196109
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        }
+      },
+      "rb_flashiness": {
+        "n_common": 460,
+        "persistence_raw_mae": 0.02982367789137022,
+        "w2_raw_mae": 0.06321178883884242,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.033388110947472203,
+          "ci95": [
+            0.027413871995303037,
+            0.03937533375874174
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.16393377877076729,
+          "ci95": [
+            0.1346005958228189,
+            0.19333071174903937
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        }
+      },
+      "runoff_ratio": {
+        "n_common": 460,
+        "persistence_raw_mae": 0.06204884843963939,
+        "w2_raw_mae": 0.10886383997376989,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.04681499153413048,
+          "ci95": [
+            0.034692328838703296,
+            0.059601017928647894
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.17807690556187808,
+          "ci95": [
+            0.13196419274854262,
+            0.22671295013123757
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        }
+      },
+      "snow_fraction": {
+        "n_common": 460,
+        "persistence_raw_mae": 0.01377653904150213,
+        "w2_raw_mae": 0.049981832621901444,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.03620529358039931,
+          "ci95": [
+            0.025005841191274726,
+            0.04816698554358954
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.1952642551429348,
+          "ci95": [
+            0.13486279136485665,
+            0.2597766686731501
+          ],
+          "n_sites": 442,
+          "n_records": 460
+        }
+      }
+    },
+    "four_labels": {
+      "n_common": 460,
+      "persistence_error": 0.15074188464033825,
+      "w2_error": 0.3052663525736689,
+      "w2_minus_persistence": {
+        "estimate": 0.1545244679333307,
+        "ci95": [
+          0.12936793027499918,
+          0.18123086289057835
+        ],
+        "n_sites": 442,
+        "n_records": 460
+      }
+    },
+    "discharge_only_bfi_flashiness": {
+      "n_common": 460,
+      "persistence_error": 0.1463215418534657,
+      "w2_error": 0.2686998973677206,
+      "w2_minus_persistence": {
+        "estimate": 0.12237835551425495,
+        "ci95": [
+          0.09990578375156298,
+          0.14461633896185616
+        ],
+        "n_sites": 442,
+        "n_records": 460
+      }
+    }
+  },
+  "5yr": {
+    "n_original_test": 467,
+    "w2_fdc_weight": 0.0,
+    "donor_iqrs": [
+      0.16891915973176996,
+      0.20287817997888588,
+      0.26600417761258716,
+      0.18250005172271938
+    ],
+    "attributes": {
+      "bfi": {
+        "n_common": 467,
+        "persistence_raw_mae": 0.02234796652060502,
+        "w2_raw_mae": 0.03867630323289417,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.016328336712289154,
+          "ci95": [
+            0.012987326223392711,
+            0.019841238238183727
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.09666361553193398,
+          "ci95": [
+            0.0768848616344975,
+            0.11745996291770582
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        }
+      },
+      "rb_flashiness": {
+        "n_common": 467,
+        "persistence_raw_mae": 0.02702581897252786,
+        "w2_raw_mae": 0.06563016336869978,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.03860434439617192,
+          "ci95": [
+            0.03240768801924743,
+            0.044956199551801794
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.19028337300832246,
+          "ci95": [
+            0.15973964288628867,
+            0.22159208820032056
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        }
+      },
+      "runoff_ratio": {
+        "n_common": 467,
+        "persistence_raw_mae": 0.05032897870091354,
+        "w2_raw_mae": 0.10545350624172208,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.05512452754080853,
+          "ci95": [
+            0.04434560141854161,
+            0.06583837947872365
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.2072318113029518,
+          "ci95": [
+            0.16671016905278555,
+            0.2475088176044052
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        }
+      },
+      "snow_fraction": {
+        "n_common": 467,
+        "persistence_raw_mae": 0.013485552434000393,
+        "w2_raw_mae": 0.045966093917042095,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.032480541483041706,
+          "ci95": [
+            0.021863920574403558,
+            0.044786925486839636
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.177975519329665,
+          "ci95": [
+            0.11980227056385939,
+            0.24540774133525425
+          ],
+          "n_sites": 449,
+          "n_records": 467
+        }
+      }
+    },
+    "four_labels": {
+      "n_common": 467,
+      "persistence_error": 0.13215223978099555,
+      "w2_error": 0.3001908195742139,
+      "w2_minus_persistence": {
+        "estimate": 0.16803857979321832,
+        "ci95": [
+          0.14377639402560644,
+          0.19303589798819132
+        ],
+        "n_sites": 449,
+        "n_records": 467
+      }
+    },
+    "discharge_only_bfi_flashiness": {
+      "n_common": 467,
+      "persistence_error": 0.13275591336465298,
+      "w2_error": 0.27622940763478115,
+      "w2_minus_persistence": {
+        "estimate": 0.1434734942701282,
+        "ci95": [
+          0.12068359674779819,
+          0.16736558753376024
+        ],
+        "n_sites": 449,
+        "n_records": 467
+      }
+    }
+  },
+  "10yr": {
+    "n_original_test": 484,
+    "w2_fdc_weight": 0.0,
+    "donor_iqrs": [
+      0.17041167620030806,
+      0.2027884429102444,
+      0.27433347724636725,
+      0.18668762579239032
+    ],
+    "attributes": {
+      "bfi": {
+        "n_common": 484,
+        "persistence_raw_mae": 0.020562823392842936,
+        "w2_raw_mae": 0.03756501511162354,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.0170021917187806,
+          "ci95": [
+            0.013873261154674115,
+            0.020340904665399513
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.09977128385730805,
+          "ci95": [
+            0.08141027342731481,
+            0.11936332720235715
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        }
+      },
+      "rb_flashiness": {
+        "n_common": 484,
+        "persistence_raw_mae": 0.023891973847906877,
+        "w2_raw_mae": 0.062259117106899825,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.03836714325899294,
+          "ci95": [
+            0.03297739685757737,
+            0.043891749889550816
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.18919787887505263,
+          "ci95": [
+            0.16261970546405052,
+            0.2164410814524456
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        }
+      },
+      "runoff_ratio": {
+        "n_common": 484,
+        "persistence_raw_mae": 0.04062164511391906,
+        "w2_raw_mae": 0.1076658480934904,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.06704420297957134,
+          "ci95": [
+            0.05629735754592453,
+            0.0784978097144704
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.24438943308170072,
+          "ci95": [
+            0.20521504743428112,
+            0.2861401040164517
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        }
+      },
+      "snow_fraction": {
+        "n_common": 484,
+        "persistence_raw_mae": 0.0112147499244892,
+        "w2_raw_mae": 0.04833970708213128,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.03712495715764209,
+          "ci95": [
+            0.026354564174592494,
+            0.04929367245033885
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.19886137069913587,
+          "ci95": [
+            0.14116931458489174,
+            0.26404359818232875
+          ],
+          "n_sites": 464,
+          "n_records": 484
+        }
+      }
+    },
+    "four_labels": {
+      "n_common": 484,
+      "persistence_error": 0.11165726232138672,
+      "w2_error": 0.29471225394968603,
+      "w2_minus_persistence": {
+        "estimate": 0.1830549916282993,
+        "ci95": [
+          0.16037132162254514,
+          0.2082386962208395
+        ],
+        "n_sites": 464,
+        "n_records": 484
+      }
+    },
+    "discharge_only_bfi_flashiness": {
+      "n_common": 484,
+      "persistence_error": 0.11924140698776327,
+      "w2_error": 0.2637259883539437,
+      "w2_minus_persistence": {
+        "estimate": 0.14448458136618034,
+        "ci95": [
+          0.12387199419913804,
+          0.16573826862160534
+        ],
+        "n_sites": 464,
+        "n_records": 484
+      }
+    }
+  },
+  "5yr_shifted": {
+    "n_original_test": 505,
+    "w2_fdc_weight": 0.0,
+    "donor_iqrs": [
+      0.170720360743723,
+      0.20454944439228478,
+      0.2707247416825042,
+      0.18662423684276444
+    ],
+    "attributes": {
+      "bfi": {
+        "n_common": 505,
+        "persistence_raw_mae": 0.02275456402848676,
+        "w2_raw_mae": 0.0404658087739246,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.017711244745437834,
+          "ci95": [
+            0.014316580898434125,
+            0.021106328102530433
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.1037441853349003,
+          "ci95": [
+            0.08385983274675406,
+            0.12363099521687522
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        }
+      },
+      "rb_flashiness": {
+        "n_common": 505,
+        "persistence_raw_mae": 0.02594526044832856,
+        "w2_raw_mae": 0.06619891469131269,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.040253654242984126,
+          "ci95": [
+            0.034435854013732586,
+            0.045966192336636416
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.19679180436093335,
+          "ci95": [
+            0.16834978025015573,
+            0.224719223624399
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        }
+      },
+      "runoff_ratio": {
+        "n_common": 505,
+        "persistence_raw_mae": 0.049432396653641957,
+        "w2_raw_mae": 0.10777726110464578,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.058344864451003814,
+          "ci95": [
+            0.04811721989908098,
+            0.06929519743661132
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.21551360281443527,
+          "ci95": [
+            0.177734844624992,
+            0.2559618193961678
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        }
+      },
+      "snow_fraction": {
+        "n_common": 505,
+        "persistence_raw_mae": 0.012619846467792632,
+        "w2_raw_mae": 0.04867831781675727,
+        "w2_minus_persistence_raw": {
+          "estimate": 0.036058471348964644,
+          "ci95": [
+            0.02593049000340632,
+            0.04742146181748065
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        },
+        "w2_minus_persistence_normalized": {
+          "estimate": 0.19321430034484105,
+          "ci95": [
+            0.13894492184985277,
+            0.2541013033448298
+          ],
+          "n_sites": 485,
+          "n_records": 505
+        }
+      }
+    },
+    "four_labels": {
+      "n_common": 505,
+      "persistence_error": 0.12758528303834057,
+      "w2_error": 0.3049012562521181,
+      "w2_minus_persistence": {
+        "estimate": 0.1773159732137775,
+        "ci95": [
+          0.15504189543515892,
+          0.20182112342430955
+        ],
+        "n_sites": 485,
+        "n_records": 505
+      }
+    },
+    "discharge_only_bfi_flashiness": {
+      "n_common": 505,
+      "persistence_error": 0.1300633057510016,
+      "w2_error": 0.2803313005989184,
+      "w2_minus_persistence": {
+        "estimate": 0.15026799484791684,
+        "ci95": [
+          0.12863239199372595,
+          0.17174859794307865
+        ],
+        "n_sites": 485,
+        "n_records": 505
+      }
+    }
+  }
+}

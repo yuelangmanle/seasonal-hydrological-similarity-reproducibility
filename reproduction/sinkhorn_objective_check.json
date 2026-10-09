@@ -1,0 +1,97 @@
+{
+  "toy": {
+    "dense_marginal_residual": 7.517042543980779e-13,
+    "plan_max_difference": 8.020220772231301e-13,
+    "dense_transport": 0.19982986274104747,
+    "factored_transport": 0.19982986274468365,
+    "regularized_objective": -0.40606563341820695
+  },
+  "real_pairs": [
+    {
+      "a": "camelscl_12284006",
+      "b": "hysets_12414500",
+      "centered_transport": 0.07492020813168604,
+      "centered_objective": 0.07395167671190689,
+      "marginal_residual": 1.734723475976807e-18
+    },
+    {
+      "a": "camelsbr_42440000",
+      "b": "camelsbr_74100000",
+      "centered_transport": 0.04205424627768759,
+      "centered_objective": 0.041693490780685016,
+      "marginal_residual": 3.469446951953614e-18
+    },
+    {
+      "a": "camelsbr_73690001",
+      "b": "camelsbr_54150000",
+      "centered_transport": 0.02182483233739431,
+      "centered_objective": 0.02082223150732604,
+      "marginal_residual": 5.204170427930421e-18
+    },
+    {
+      "a": "lamah_209361",
+      "b": "camelsbr_64346000",
+      "centered_transport": 0.024154785808875284,
+      "centered_objective": 0.02313588053607135,
+      "marginal_residual": 6.071532165918825e-18
+    },
+    {
+      "a": "lamah_11412107",
+      "b": "lamah_208736",
+      "centered_transport": 0.02555783029559172,
+      "centered_objective": 0.023990070245810846,
+      "marginal_residual": 2.6020852139652106e-18
+    },
+    {
+      "a": "camelsbr_60798000",
+      "b": "camels_01664000",
+      "centered_transport": 0.061771430888871715,
+      "centered_objective": 0.060785281919432166,
+      "marginal_residual": 2.6020852139652106e-18
+    },
+    {
+      "a": "camelsbr_27500000",
+      "b": "hysets_06600500",
+      "centered_transport": 0.10411389486849738,
+      "centered_objective": 0.09996183411560622,
+      "marginal_residual": 6.071532165918825e-18
+    },
+    {
+      "a": "hysets_02RC011",
+      "b": "lamah_17201501",
+      "centered_transport": 0.14026252757562646,
+      "centered_objective": 0.13657009992415403,
+      "marginal_residual": 1.734723475976807e-18
+    },
+    {
+      "a": "hysets_06AD001",
+      "b": "camelsbr_65060000",
+      "centered_transport": 0.0590169318882639,
+      "centered_objective": 0.05193369984179819,
+      "marginal_residual": 2.6020852139652106e-18
+    },
+    {
+      "a": "camels_02479560",
+      "b": "lamah_200162",
+      "centered_transport": 0.04971566181090142,
+      "centered_objective": 0.04845287344059296,
+      "marginal_residual": 1.734723475976807e-18
+    },
+    {
+      "a": "lamah_204727",
+      "b": "camelsbr_56539000",
+      "centered_transport": 0.024275249633697066,
+      "centered_objective": 0.022928252407337424,
+      "marginal_residual": 3.469446951953614e-18
+    },
+    {
+      "a": "camelscl_5716001",
+      "b": "camelsbr_58930000",
+      "centered_transport": 0.04893270895429949,
+      "centered_objective": 0.04819176379454854,
+      "marginal_residual": 5.204170427930421e-18
+    }
+  ],
+  "spearman_centered_cost_vs_objective": 0.9930069930069931,
+  "interpretation": "The legacy solver computes the regularized optimal plan correctly but reports transport cost alone, not the full entropy-regularized objective. Neither numerical checks nor rank agreement establishes universal superiority."
+}

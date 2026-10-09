@@ -1,0 +1,19 @@
+{
+  "prediction": "(1-alpha)*early target signature + alpha*monthly donor signature prediction",
+  "donor_prediction": "current window-specific calibrated monthly-W2 candidate; weights fixed from prior experiment",
+  "alpha_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "one common alpha per window, minimize calibration four-label mean donor-IQR-normalized absolute error; ties select smaller alpha",
+  "scale": "eligible donor 2001-2010 label IQR, exactly matching the published comparator",
+  "test": "original test physical sites, no alpha retuning; common complete early-label cohort",
+  "intervals": "5000 fixed-prediction physical-site paired bootstrap; blend minus persistence error, negative favors blend",
+  "information": "BFI and flashiness use early discharge; runoff ratio and snow proxy also require early precipitation and temperature"
+}

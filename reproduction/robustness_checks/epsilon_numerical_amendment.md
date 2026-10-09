@@ -1,0 +1,1 @@
+Before any OT epsilon comparison scores were available, the 0.01 self-cost pilot failed the 1e-9 marginal tolerance after 20,000 iterations (8.06e-8 residual). The bounded sensitivity uses 1e-7 maximum cell marginal residual and up to 100,000 iterations for all epsilons. All failures are explicit. This is an exploratory reduced-cohort check, not full-cohort epsilon validation.

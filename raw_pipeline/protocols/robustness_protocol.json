@@ -1,0 +1,9 @@
+{
+ "status":"fixed analysis protocol", "date":"2026-09-17", "purpose":"robustness evaluation using the primary station-separated split",
+ "repeat_seeds":[2026091701,2026091702,2026091703,2026091704,2026091705,2026091706,2026091707,2026091708,2026091709,2026091710,2026091711,2026091712,2026091713,2026091714,2026091715,2026091716,2026091717,2026091718,2026091719,2026091720],
+ "split":"site_id 60/20/20", "k":10, "weights":[0,0.25,0.5,0.75,1],
+ "geography":"haversine gauge-coordinate distance, same donor pool and median predictor",
+ "buffer_km":[50,100,200], "buffer_design":"original partitions; each calibration/test target excludes donors within radius; report only targets with at least 10 eligible donors, common across methods; this is distance-constrained retrieval using the primary station-separated design",
+ "epsilon":[0.01,0.05,0.1], "epsilon_design":"original partition, calibration reselects mixture for each epsilon; convergence and runtime recorded before full computation",
+ "report":"all seeds and radii, paired score differences and variability; no selection by test results"
+}

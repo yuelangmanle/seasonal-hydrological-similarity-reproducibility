@@ -1,0 +1,6 @@
+﻿representation,number_of_quantiles,mean_normalised_MAE
+monthly,32,0.2904733733239142
+monthly,64,0.29006485761427503
+monthly,128,0.29133426892011904
+annual,32,0.4390434967621676
+annual,128,0.43583204800500874

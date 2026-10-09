@@ -1,0 +1,27 @@
+{
+  "records": 2416,
+  "source_files": 4590,
+  "retained_by_region": {
+    "camelsbr": 786,
+    "lamah": 626,
+    "camels": 523,
+    "hysets": 327,
+    "camelscl": 154
+  },
+  "max_absolute_difference": {
+    "fdc": 0.0,
+    "profiles": 0.0,
+    "monthly_quantiles": 0.0,
+    "attributes": 2.220446049250313e-16
+  },
+  "scope": "Raw extraction verified against archived inputs; transport matrix not yet recomputed",
+  "downstream_raw_rebuild": "PASS with archived transport",
+  "figure_source_tables": "Seven plotted CSVs recomputed and matched at atol=1e-8",
+  "transport_sample_check": {
+    "pairs": 40,
+    "max_abs_difference": 2.1363315655609227e-05,
+    "full_matrix_rebuilt": false
+  },
+  "full_transport_matrix_rerun": false,
+  "epsilon_solver_rerun": false
+}

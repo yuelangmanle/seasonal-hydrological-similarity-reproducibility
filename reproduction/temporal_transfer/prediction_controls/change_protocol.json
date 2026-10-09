@@ -1,0 +1,10 @@
+{
+  "feature": "same locked early annual-FDC-donor monthly mismatch as early gain rule",
+  "target": "mean absolute early-target versus 2001-2010 target signature difference, normalized by eligible donor later-label IQR",
+  "model": "one standardized predictor ridge, intercept, alpha=1, no feature or threshold selection",
+  "training": "original calibration physical sites only, or non-heldout calibration sites in dataset holdouts",
+  "test": "original test sites only; labels used only for scoring",
+  "uncertainty": "5000 physical-site paired bootstrap of fixed predictions",
+  "baseline": "constant calibration mean signature-change magnitude",
+  "meaning": "predictability of magnitude of cross-period target signature change; not a validated mechanism or a selected failure threshold"
+}

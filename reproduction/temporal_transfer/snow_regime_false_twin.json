@@ -1,0 +1,56 @@
+{
+  "analysis": "annual_fdc_false_twins_by_snow_regime",
+  "seed": 20261008,
+  "bootstrap_replicates": 2000,
+  "timing_threshold_days": 30.0,
+  "top_fdc_fraction": 0.05,
+  "pair_sample": {
+    "path": "diagnostics_inputs/blindspot_pairs.npz",
+    "sha256": "755bb4805a5eb5d690f2f075f9d31c8228c436e85e226b5d9d9680a06d41bace",
+    "n_pairs": 400000,
+    "n_same_physical_site_pairs": 13,
+    "n_self_record_pairs": 0,
+    "arrays": [
+      "all_i",
+      "all_j",
+      "all_d_fdc",
+      "all_d_time"
+    ],
+    "n_top5_same_physical_site_pairs": 12
+  },
+  "benchmark_input": {
+    "path": "diagnostics_inputs/benchmark_inputs.npz",
+    "sha256": "b05562e59f8c7f202164692807f30ad76121a3fdb92a76dee1bc282c39e65041",
+    "n_records": 2416,
+    "attributes_column": 3,
+    "attributes_column_note": "zero-based column 3 is snow_fraction in the released four-label matrix"
+  },
+  "thresholds": {
+    "snow_q1": 0.0,
+    "snow_q2_median": 0.0708671502826788,
+    "snow_q3": 0.1905544849603948,
+    "annual_fdc_top5_cut": 0.1305938705801964,
+    "timing_gt_30d": true
+  },
+  "definitions": {
+    "low_snow": "endpoint snow_fraction <= global Q1",
+    "high_snow": "endpoint snow_fraction >= global Q3",
+    "cross_low_high_snow": "one endpoint low-snow and the other high-snow",
+    "false_twin": "circular timing distance > 30 days among annual-FDC top-5% pairs",
+    "bootstrap": "physical-site multiplier bootstrap with fixed pair sample and fixed top-5% membership; same-site pairs receive one cluster weight"
+  },
+  "cross_low_high_result": {
+    "category": "cross_low_high_snow",
+    "n_top5_pairs": 3528,
+    "n_timing_gt_30d": 1951,
+    "false_twin_rate": 0.5530045351473923,
+    "pair_wilson_low": 0.5365498204314797,
+    "pair_wilson_high": 0.5693439475534744,
+    "site_cluster_bootstrap_low": 0.5005800701856602,
+    "site_cluster_bootstrap_high": 0.6054779077651995
+  },
+  "outputs": {
+    "csv": "snow_regime_false_twin.csv",
+    "paragraph": "snow_regime_false_twin_paragraph.md"
+  }
+}

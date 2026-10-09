@@ -1,0 +1,930 @@
+{
+  "3yr": {
+    "window": "3yr",
+    "feature_years": [
+      1981,
+      1983
+    ],
+    "future_years": [
+      2001,
+      2010
+    ],
+    "n_total_records": 2522,
+    "n_feature_eligible": 2279,
+    "n_label_eligible": 2516,
+    "n_eligible": 2273,
+    "n_donor": 1362,
+    "n_calibration": 451,
+    "n_test": 460,
+    "distance_medians_donor": {
+      "annual_fdc": 0.029848055302686787,
+      "monthly_conditional_w2": 0.15526158628243772,
+      "monthly_allocation": 0.8758015964166721
+    },
+    "methods": {
+      "annual_fdc": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0
+        ],
+        "calibration_scores": [
+          0.46521441601245395
+        ],
+        "calibration_score": 0.46521441601245395,
+        "test_score": 0.4616216620917658,
+        "test_mae": {
+          "bfi": 0.04591285552845347,
+          "rb_flashiness": 0.07087665426234059,
+          "runoff_ratio": 0.16824576722701423,
+          "snow_fraction": 0.10878444850888705
+        }
+      },
+      "monthly_conditional_w2": {
+        "weight_fdc": 0.25,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.300025077115165,
+          0.28990569220477086,
+          0.30365367243670804,
+          0.3279039981604572,
+          0.46521441601245395
+        ],
+        "calibration_score": 0.28990569220477086,
+        "test_score": 0.3052663525736689,
+        "test_mae": {
+          "bfi": 0.03835029224467626,
+          "rb_flashiness": 0.06321178883884244,
+          "runoff_ratio": 0.10886383997376994,
+          "snow_fraction": 0.049981832621901416
+        }
+      },
+      "monthly_allocation": {
+        "weight_fdc": 0.5,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.4763521161882943,
+          0.34836941924456316,
+          0.34544961628067666,
+          0.3522357671957861,
+          0.46521441601245395
+        ],
+        "calibration_score": 0.34544961628067666,
+        "test_score": 0.35183472921671244,
+        "test_mae": {
+          "bfi": 0.042987586690351354,
+          "rb_flashiness": 0.06438599766409205,
+          "runoff_ratio": 0.12715530089961827,
+          "snow_fraction": 0.06545999180269291
+        }
+      }
+    },
+    "bootstrap_aggregate": {
+      "annual_fdc": {
+        "estimate": 0.4616216620917658,
+        "lower": 0.43156069159600435,
+        "upper": 0.49427750273395554,
+        "n_sites": 442,
+        "replicates": 5000
+      },
+      "monthly_conditional_w2": {
+        "estimate": 0.3052663525736689,
+        "lower": 0.27935903882832014,
+        "upper": 0.33257360320910606,
+        "n_sites": 442,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": 0.35183472921671244,
+        "lower": 0.3245860068487934,
+        "upper": 0.38133631593160827,
+        "n_sites": 442,
+        "replicates": 5000
+      }
+    },
+    "bootstrap_attributes_raw": {
+      "annual_fdc": {
+        "bfi": {
+          "estimate": 0.04591285552845348,
+          "lower": 0.041463108163370115,
+          "upper": 0.05043997475986223,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.07087665426234063,
+          "lower": 0.06346812909258152,
+          "upper": 0.07832620764213122,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.1682457672270143,
+          "lower": 0.15355977431007292,
+          "upper": 0.1833407080916767,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.10878444850888708,
+          "lower": 0.09506662390857372,
+          "upper": 0.12269192301213912,
+          "n_sites": 442,
+          "replicates": 5000
+        }
+      },
+      "monthly_conditional_w2": {
+        "bfi": {
+          "estimate": 0.03835029224467622,
+          "lower": 0.03481017175368412,
+          "upper": 0.042101787114378085,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06321178883884242,
+          "lower": 0.05768954747986245,
+          "upper": 0.06936668718783684,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.10886383997376989,
+          "lower": 0.09843458828811755,
+          "upper": 0.11995080599485869,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.049981832621901444,
+          "lower": 0.03829706636279856,
+          "upper": 0.06319123641241056,
+          "n_sites": 442,
+          "replicates": 5000
+        }
+      },
+      "monthly_allocation": {
+        "bfi": {
+          "estimate": 0.04298758669035137,
+          "lower": 0.03913004623268253,
+          "upper": 0.047024194701933336,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06438599766409207,
+          "lower": 0.05851646827089064,
+          "upper": 0.07056075764773526,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.1271553008996182,
+          "lower": 0.1143922990154321,
+          "upper": 0.14097738261165793,
+          "n_sites": 442,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.06545999180269285,
+          "lower": 0.05350252840492191,
+          "upper": 0.07926479068864213,
+          "n_sites": 442,
+          "replicates": 5000
+        }
+      }
+    },
+    "paired_bootstrap_vs_fdc": {
+      "monthly_conditional_w2": {
+        "estimate": -0.15635530951809684,
+        "lower": -0.18095340794466064,
+        "upper": -0.13255282271126068,
+        "n_sites": 442,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": -0.10978693287505333,
+        "lower": -0.13343440435567178,
+        "upper": -0.08682565122222051,
+        "n_sites": 442,
+        "replicates": 5000
+      }
+    },
+    "paired_bootstrap_w2_vs_allocation": {
+      "monthly_conditional_w2": {
+        "estimate": -0.04656837664304356,
+        "lower": -0.0608526878832549,
+        "upper": -0.03391994306567905,
+        "n_sites": 442,
+        "replicates": 5000
+      }
+    }
+  },
+  "5yr": {
+    "window": "5yr",
+    "feature_years": [
+      1981,
+      1985
+    ],
+    "future_years": [
+      2001,
+      2010
+    ],
+    "n_total_records": 2522,
+    "n_feature_eligible": 2325,
+    "n_label_eligible": 2516,
+    "n_eligible": 2319,
+    "n_donor": 1390,
+    "n_calibration": 462,
+    "n_test": 467,
+    "distance_medians_donor": {
+      "annual_fdc": 0.02791639556279559,
+      "monthly_conditional_w2": 0.1424593402153092,
+      "monthly_allocation": 0.8089549672678444
+    },
+    "methods": {
+      "annual_fdc": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0
+        ],
+        "calibration_scores": [
+          0.45858413227266237
+        ],
+        "calibration_score": 0.45858413227266237,
+        "test_score": 0.46008618411333835,
+        "test_mae": {
+          "bfi": 0.04768801914646109,
+          "rb_flashiness": 0.06903709404316169,
+          "runoff_ratio": 0.17206040442611903,
+          "snow_fraction": 0.10419113827587502
+        }
+      },
+      "monthly_conditional_w2": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.29547264378000787,
+          0.30048124914699575,
+          0.30844775488615295,
+          0.32377787060332125,
+          0.45858413227266237
+        ],
+        "calibration_score": 0.29547264378000787,
+        "test_score": 0.3001908195742139,
+        "test_mae": {
+          "bfi": 0.03867630323289418,
+          "rb_flashiness": 0.06563016336869981,
+          "runoff_ratio": 0.10545350624172202,
+          "snow_fraction": 0.045966093917042074
+        }
+      },
+      "monthly_allocation": {
+        "weight_fdc": 0.25,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.47765662338128284,
+          0.34619022612764716,
+          0.3471253108498794,
+          0.35008888843422986,
+          0.45858413227266237
+        ],
+        "calibration_score": 0.34619022612764716,
+        "test_score": 0.34450116639317013,
+        "test_mae": {
+          "bfi": 0.041713938318259355,
+          "rb_flashiness": 0.06634971247847114,
+          "runoff_ratio": 0.12611634418982265,
+          "snow_fraction": 0.06020717264727098
+        }
+      }
+    },
+    "bootstrap_aggregate": {
+      "annual_fdc": {
+        "estimate": 0.4600861841133384,
+        "lower": 0.43019317349829844,
+        "upper": 0.4925903788793853,
+        "n_sites": 449,
+        "replicates": 5000
+      },
+      "monthly_conditional_w2": {
+        "estimate": 0.3001908195742139,
+        "lower": 0.27590524146241596,
+        "upper": 0.3255494088232414,
+        "n_sites": 449,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": 0.34450116639317013,
+        "lower": 0.31662368520803374,
+        "upper": 0.37351354218101646,
+        "n_sites": 449,
+        "replicates": 5000
+      }
+    },
+    "bootstrap_attributes_raw": {
+      "annual_fdc": {
+        "bfi": {
+          "estimate": 0.047688019146461105,
+          "lower": 0.04376695327088372,
+          "upper": 0.05181066248087408,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06903709404316166,
+          "lower": 0.062488873254724,
+          "upper": 0.07565331257423484,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.17206040442611897,
+          "lower": 0.1585599111937182,
+          "upper": 0.1861084331888554,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.10419113827587506,
+          "lower": 0.0911634609351607,
+          "upper": 0.11773420898044719,
+          "n_sites": 449,
+          "replicates": 5000
+        }
+      },
+      "monthly_conditional_w2": {
+        "bfi": {
+          "estimate": 0.03867630323289417,
+          "lower": 0.035381484767186264,
+          "upper": 0.04198248941653774,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06563016336869978,
+          "lower": 0.05944371199041243,
+          "upper": 0.07193800899787757,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.10545350624172208,
+          "lower": 0.09582595161182275,
+          "upper": 0.1157206667290182,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.045966093917042095,
+          "lower": 0.034829529983609074,
+          "upper": 0.05873157146424166,
+          "n_sites": 449,
+          "replicates": 5000
+        }
+      },
+      "monthly_allocation": {
+        "bfi": {
+          "estimate": 0.041713938318259404,
+          "lower": 0.037975283224718895,
+          "upper": 0.0454096364351417,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06634971247847114,
+          "lower": 0.0605382651145955,
+          "upper": 0.07236029034580943,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.12611634418982262,
+          "lower": 0.11351687154299617,
+          "upper": 0.1389058110340062,
+          "n_sites": 449,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.06020717264727098,
+          "lower": 0.04837480813379172,
+          "upper": 0.0728143665713207,
+          "n_sites": 449,
+          "replicates": 5000
+        }
+      }
+    },
+    "paired_bootstrap_vs_fdc": {
+      "monthly_conditional_w2": {
+        "estimate": -0.15989536453912453,
+        "lower": -0.1866322058479585,
+        "upper": -0.1332966660400531,
+        "n_sites": 449,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": -0.11558501772016831,
+        "lower": -0.14156614228925293,
+        "upper": -0.09022872711778757,
+        "n_sites": 449,
+        "replicates": 5000
+      }
+    },
+    "paired_bootstrap_w2_vs_allocation": {
+      "monthly_conditional_w2": {
+        "estimate": -0.04431034681895625,
+        "lower": -0.06041173452169398,
+        "upper": -0.029440086856864583,
+        "n_sites": 449,
+        "replicates": 5000
+      }
+    }
+  },
+  "10yr": {
+    "window": "10yr",
+    "feature_years": [
+      1981,
+      1990
+    ],
+    "future_years": [
+      2001,
+      2010
+    ],
+    "n_total_records": 2522,
+    "n_feature_eligible": 2422,
+    "n_label_eligible": 2516,
+    "n_eligible": 2416,
+    "n_donor": 1452,
+    "n_calibration": 480,
+    "n_test": 484,
+    "distance_medians_donor": {
+      "annual_fdc": 0.02708950566941875,
+      "monthly_conditional_w2": 0.12989533444015217,
+      "monthly_allocation": 0.7763890434089191
+    },
+    "methods": {
+      "annual_fdc": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0
+        ],
+        "calibration_scores": [
+          0.4575128862175544
+        ],
+        "calibration_score": 0.4575128862175544,
+        "test_score": 0.4542937529958546,
+        "test_mae": {
+          "bfi": 0.04927616298999924,
+          "rb_flashiness": 0.06925680445462949,
+          "runoff_ratio": 0.16826544536862834,
+          "snow_fraction": 0.10699666373710469
+        }
+      },
+      "monthly_conditional_w2": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.2911216602531015,
+          0.29326013629528247,
+          0.30670809411194616,
+          0.328172155358662,
+          0.4575128862175544
+        ],
+        "calibration_score": 0.2911216602531015,
+        "test_score": 0.294712253949686,
+        "test_mae": {
+          "bfi": 0.037565015111623544,
+          "rb_flashiness": 0.062259117106899825,
+          "runoff_ratio": 0.10766584809349039,
+          "snow_fraction": 0.04833970708213131
+        }
+      },
+      "monthly_allocation": {
+        "weight_fdc": 0.25,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.46981694088157344,
+          0.32854820221863945,
+          0.3334490820260975,
+          0.3482984354225508,
+          0.4575128862175544
+        ],
+        "calibration_score": 0.32854820221863945,
+        "test_score": 0.3518329144540671,
+        "test_mae": {
+          "bfi": 0.04375627889859917,
+          "rb_flashiness": 0.07165697649461886,
+          "runoff_ratio": 0.13087343600906545,
+          "snow_fraction": 0.059767227598291534
+        }
+      }
+    },
+    "bootstrap_aggregate": {
+      "annual_fdc": {
+        "estimate": 0.45429375299585467,
+        "lower": 0.4246440140599149,
+        "upper": 0.4845348459589926,
+        "n_sites": 464,
+        "replicates": 5000
+      },
+      "monthly_conditional_w2": {
+        "estimate": 0.29471225394968603,
+        "lower": 0.26965337596937883,
+        "upper": 0.3205906929922694,
+        "n_sites": 464,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": 0.35183291445406717,
+        "lower": 0.32260567114424465,
+        "upper": 0.38140189406517433,
+        "n_sites": 464,
+        "replicates": 5000
+      }
+    },
+    "bootstrap_attributes_raw": {
+      "annual_fdc": {
+        "bfi": {
+          "estimate": 0.04927616298999919,
+          "lower": 0.04495179527574296,
+          "upper": 0.05383247644673154,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06925680445462948,
+          "lower": 0.06299819906739194,
+          "upper": 0.07553883514297235,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.16826544536862828,
+          "lower": 0.15451049135500539,
+          "upper": 0.1831809693265135,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.1069966637371046,
+          "lower": 0.09463776558465739,
+          "upper": 0.12026066312988272,
+          "n_sites": 464,
+          "replicates": 5000
+        }
+      },
+      "monthly_conditional_w2": {
+        "bfi": {
+          "estimate": 0.03756501511162354,
+          "lower": 0.03433872158094497,
+          "upper": 0.04091934159451009,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.062259117106899825,
+          "lower": 0.05647450065852219,
+          "upper": 0.06792529787472765,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.1076658480934904,
+          "lower": 0.09725200015730473,
+          "upper": 0.11861274930208342,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.04833970708213128,
+          "lower": 0.03756842222301006,
+          "upper": 0.06045729028914266,
+          "n_sites": 464,
+          "replicates": 5000
+        }
+      },
+      "monthly_allocation": {
+        "bfi": {
+          "estimate": 0.04375627889859917,
+          "lower": 0.03955862693262246,
+          "upper": 0.04807674505505541,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.07165697649461884,
+          "lower": 0.06486620404144783,
+          "upper": 0.0787562075903159,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.13087343600906529,
+          "lower": 0.11810718456823158,
+          "upper": 0.14377303442884082,
+          "n_sites": 464,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.059767227598291485,
+          "lower": 0.04831573619570409,
+          "upper": 0.0725811735441409,
+          "n_sites": 464,
+          "replicates": 5000
+        }
+      }
+    },
+    "paired_bootstrap_vs_fdc": {
+      "monthly_conditional_w2": {
+        "estimate": -0.15958149904616864,
+        "lower": -0.18273946885934242,
+        "upper": -0.1365273398868176,
+        "n_sites": 464,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": -0.10246083854178757,
+        "lower": -0.12658168048318547,
+        "upper": -0.0796138303978652,
+        "n_sites": 464,
+        "replicates": 5000
+      }
+    },
+    "paired_bootstrap_w2_vs_allocation": {
+      "monthly_conditional_w2": {
+        "estimate": -0.05712066050438111,
+        "lower": -0.07269627851852528,
+        "upper": -0.04113425979639884,
+        "n_sites": 464,
+        "replicates": 5000
+      }
+    }
+  },
+  "5yr_shifted": {
+    "window": "5yr_shifted",
+    "feature_years": [
+      1986,
+      1990
+    ],
+    "future_years": [
+      2001,
+      2010
+    ],
+    "n_total_records": 2522,
+    "n_feature_eligible": 2510,
+    "n_label_eligible": 2516,
+    "n_eligible": 2504,
+    "n_donor": 1505,
+    "n_calibration": 494,
+    "n_test": 505,
+    "distance_medians_donor": {
+      "annual_fdc": 0.02944550091512242,
+      "monthly_conditional_w2": 0.14472079943095875,
+      "monthly_allocation": 0.8529481608425684
+    },
+    "methods": {
+      "annual_fdc": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0
+        ],
+        "calibration_scores": [
+          0.46484591035134415
+        ],
+        "calibration_score": 0.46484591035134415,
+        "test_score": 0.45769059098352854,
+        "test_mae": {
+          "bfi": 0.05092022161544985,
+          "rb_flashiness": 0.07908188978820943,
+          "runoff_ratio": 0.16078006045981869,
+          "snow_fraction": 0.10301525795140316
+        }
+      },
+      "monthly_conditional_w2": {
+        "weight_fdc": 0.0,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.2969704658745981,
+          0.3084850383987002,
+          0.3168587527477038,
+          0.3386535896944618,
+          0.46484591035134415
+        ],
+        "calibration_score": 0.2969704658745981,
+        "test_score": 0.3049012562521181,
+        "test_mae": {
+          "bfi": 0.040465808773924604,
+          "rb_flashiness": 0.06619891469131263,
+          "runoff_ratio": 0.10777726110464579,
+          "snow_fraction": 0.04867831781675727
+        }
+      },
+      "monthly_allocation": {
+        "weight_fdc": 0.5,
+        "candidate_weights": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "calibration_scores": [
+          0.4656252499068327,
+          0.3500535178053887,
+          0.34971675774142885,
+          0.3583766416109481,
+          0.46484591035134415
+        ],
+        "calibration_score": 0.34971675774142885,
+        "test_score": 0.3478263135082958,
+        "test_mae": {
+          "bfi": 0.04399445270496467,
+          "rb_flashiness": 0.06908034612853178,
+          "runoff_ratio": 0.12462830212595075,
+          "snow_fraction": 0.06261918096757399
+        }
+      }
+    },
+    "bootstrap_aggregate": {
+      "annual_fdc": {
+        "estimate": 0.45769059098352866,
+        "lower": 0.4289066633320447,
+        "upper": 0.4879744862589699,
+        "n_sites": 485,
+        "replicates": 5000
+      },
+      "monthly_conditional_w2": {
+        "estimate": 0.3049012562521181,
+        "lower": 0.2794994270251368,
+        "upper": 0.3305975347289166,
+        "n_sites": 485,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": 0.34782631350829585,
+        "lower": 0.31986702606365663,
+        "upper": 0.37681679133556817,
+        "n_sites": 485,
+        "replicates": 5000
+      }
+    },
+    "bootstrap_attributes_raw": {
+      "annual_fdc": {
+        "bfi": {
+          "estimate": 0.05092022161544984,
+          "lower": 0.04630573558378493,
+          "upper": 0.05572753617965009,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.07908188978820942,
+          "lower": 0.07227573446214393,
+          "upper": 0.08657261901169407,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.1607800604598188,
+          "lower": 0.14797307135303273,
+          "upper": 0.17417485321744194,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.10301525795140322,
+          "lower": 0.09107372495250261,
+          "upper": 0.1158413889880107,
+          "n_sites": 485,
+          "replicates": 5000
+        }
+      },
+      "monthly_conditional_w2": {
+        "bfi": {
+          "estimate": 0.0404658087739246,
+          "lower": 0.037005471740646334,
+          "upper": 0.044114237605470966,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06619891469131269,
+          "lower": 0.0602565948481781,
+          "upper": 0.07255779337207631,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.10777726110464578,
+          "lower": 0.09772555351487826,
+          "upper": 0.11802013839566283,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.04867831781675727,
+          "lower": 0.03764099821959348,
+          "upper": 0.060884174100631634,
+          "n_sites": 485,
+          "replicates": 5000
+        }
+      },
+      "monthly_allocation": {
+        "bfi": {
+          "estimate": 0.04399445270496466,
+          "lower": 0.03988405916680308,
+          "upper": 0.048148430088550076,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "rb_flashiness": {
+          "estimate": 0.06908034612853185,
+          "lower": 0.06269423843868037,
+          "upper": 0.07579632235499124,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "runoff_ratio": {
+          "estimate": 0.12462830212595072,
+          "lower": 0.11286262016427685,
+          "upper": 0.13675102408844683,
+          "n_sites": 485,
+          "replicates": 5000
+        },
+        "snow_fraction": {
+          "estimate": 0.06261918096757396,
+          "lower": 0.051421511186902163,
+          "upper": 0.07526305131686484,
+          "n_sites": 485,
+          "replicates": 5000
+        }
+      }
+    },
+    "paired_bootstrap_vs_fdc": {
+      "monthly_conditional_w2": {
+        "estimate": -0.15278933473141051,
+        "lower": -0.1778040763484473,
+        "upper": -0.12752579709954553,
+        "n_sites": 485,
+        "replicates": 5000
+      },
+      "monthly_allocation": {
+        "estimate": -0.10986427747523278,
+        "lower": -0.1332356307024284,
+        "upper": -0.08571278438310853,
+        "n_sites": 485,
+        "replicates": 5000
+      }
+    },
+    "paired_bootstrap_w2_vs_allocation": {
+      "monthly_conditional_w2": {
+        "estimate": -0.04292505725617773,
+        "lower": -0.05722866863057869,
+        "upper": -0.029291049487059222,
+        "n_sites": 485,
+        "replicates": 5000
+      }
+    }
+  }
+}

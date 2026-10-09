@@ -1,0 +1,13 @@
+﻿number_of_donors,method_id,display_label,mean_normalised_MAE
+5,monthly_32,Monthly conditional W2,0.2716530270199688
+10,monthly_32,Monthly conditional W2,0.2904733733239142
+20,monthly_32,Monthly conditional W2,0.30889088397988884
+5,FDC,Conventional FDC,0.46199230295094873
+10,FDC,Conventional FDC,0.45286330628966187
+20,FDC,Conventional FDC,0.457050484532478
+5,original_OT,Original OT + FDC,0.33390556334866317
+10,original_OT,Original OT + FDC,0.3402723364016408
+20,original_OT,Original OT + FDC,0.3528836817677668
+5,FDC_TIMING,FDC + allocation,0.31893060517005745
+10,FDC_TIMING,FDC + allocation,0.3251230650863664
+20,FDC_TIMING,FDC + allocation,0.34154155099112965

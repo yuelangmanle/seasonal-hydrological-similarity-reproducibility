@@ -1,0 +1,2018 @@
+{
+  "3yr": {
+    "n_calibration": 451,
+    "n_test": 460,
+    "methods": {
+      "annual_fdc": {
+        "alpha_selected": 0.05,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.15580125349101598
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.15518771687406926
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.15907177875122044
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.1766646388367216
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.20184550560778447
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.26725952956481397
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.3625858397889608
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.46521441601245395
+          }
+        ],
+        "four_label_error": 0.14977662988260845,
+        "discharge_only_error": 0.14640470574127692,
+        "donor_only_error": 0.4616216620917658,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.14552109879683675,
+            "versus_persistence": {
+              "estimate": -0.0006893753723375441,
+              "ci95": [
+                -0.0021765302541676365,
+                0.0008455058588105608
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0010021244057018455,
+              "ci95": [
+                -0.0010372906070492418,
+                0.0030170606653149978
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.14728831268571713,
+            "versus_persistence": {
+              "estimate": 0.0008557031479600813,
+              "ci95": [
+                -0.0012546976647687478,
+                0.003109296384436135
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0012826888838732608,
+              "ci95": [
+                -0.0015731812656042436,
+                0.0043177316427509315
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.22905652660990583,
+            "versus_persistence": {
+              "estimate": -0.0069675879251428555,
+              "ci95": [
+                -0.011402551017528403,
+                -0.002580743909139914
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.006577555568964042,
+              "ci95": [
+                0.002185252483592265,
+                0.01106546934655208
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.07724058143797416,
+            "versus_persistence": {
+              "estimate": 0.0029402411186012873,
+              "ci95": [
+                -0.0018042512275420843,
+                0.007369842261734431
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0030939600376138636,
+              "ci95": [
+                -0.0012606663530834398,
+                0.00748920172430144
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.000965254757729758,
+            "ci95": [
+              -0.00279766855653015,
+              0.0008387920334161355
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0029890822240382525,
+            "ci95": [
+              0.0009997892087033548,
+              0.005038892311499493
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 8.316388781126845e-05,
+            "ci95": [
+              -0.0014537015730296029,
+              0.0017587936874455356
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0011424066447875529,
+            "ci95": [
+              -0.0009580303756400217,
+              0.0033312911128309773
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        }
+      },
+      "allocation": {
+        "alpha_selected": 0.05,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.15580125349101598
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.15354363254101008
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.1542037423568815
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.16195617862819034
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.17578962249473595
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.21432290872090795
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.27517143465374366
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.34544961628067666
+          }
+        ],
+        "four_label_error": 0.14807830763633914,
+        "discharge_only_error": 0.145238574829345,
+        "donor_only_error": 0.35183472921671244,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.14504750585018644,
+            "versus_persistence": {
+              "estimate": -0.0011629683189878742,
+              "ci95": [
+                -0.0025224042983223627,
+                0.00022607654008503065
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0005285314590515153,
+              "ci95": [
+                -0.0010172515630757083,
+                0.0020623983088950584
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.14542964380850354,
+            "versus_persistence": {
+              "estimate": -0.001002965729253499,
+              "ci95": [
+                -0.0029065740562411457,
+                0.0008857877992574339
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": -0.0005759799933403192,
+              "ci95": [
+                -0.0028997517608138684,
+                0.0017759788246302255
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.22967093241365347,
+            "versus_persistence": {
+              "estimate": -0.006353182121395237,
+              "ci95": [
+                -0.009707179002752,
+                -0.0030092672708989473
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.00719196137271166,
+              "ci95": [
+                0.003776562048375399,
+                0.010803635789376381
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.07216514847301311,
+            "versus_persistence": {
+              "estimate": -0.0021351918463597356,
+              "ci95": [
+                -0.006079784607998893,
+                0.0014477976612684597
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": -0.0019814729273471584,
+              "ci95": [
+                -0.005175189322829973,
+                0.0010369202009123451
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.0026635770039990865,
+            "ci95": [
+              -0.004153356090698558,
+              -0.0012179679450518472
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0012907599777689247,
+            "ci95": [
+              -0.00019911243166727589,
+              0.0028569128550160984
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": -0.0010829670241206864,
+            "ci95": [
+              -0.0024680991854596898,
+              0.0003288204474355892
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": -2.3724267144401796e-05,
+            "ci95": [
+              -0.0016640725707793818,
+              0.0016155255346320455
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        }
+      },
+      "monthly_w2": {
+        "alpha_selected": 0.1,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.15580125349101598
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.15255976109668853
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.15153551209102833
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.15444163916424658
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.16202619496677118
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.1884078420250637
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.23428302074630522
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.28990569220477086
+          }
+        ],
+        "four_label_error": 0.14678754765857022,
+        "discharge_only_error": 0.14526229909648938,
+        "donor_only_error": 0.3052663525736689,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.14451897439113492,
+            "versus_persistence": {
+              "estimate": -0.0016914997780393896,
+              "ci95": [
+                -0.004016315198639333,
+                0.0007389537374032029
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.1460056238018439,
+            "versus_persistence": {
+              "estimate": -0.00042698573591317936,
+              "ci95": [
+                -0.004278922640704563,
+                0.0032664884236846777
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.22247897104094183,
+            "versus_persistence": {
+              "estimate": -0.013545143494106897,
+              "ci95": [
+                -0.01942591239603197,
+                -0.007812940268300553
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.07414662140036027,
+            "versus_persistence": {
+              "estimate": -0.0001537189190125779,
+              "ci95": [
+                -0.005386224172909638,
+                0.004904706769256766
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 442,
+              "n_records": 460
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.003954336981768012,
+            "ci95": [
+              -0.006510066236598945,
+              -0.0014745209592151973
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": -0.0010592427569762846,
+            "ci95": [
+              -0.003659703512355,
+              0.0015013833038148947
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 442,
+            "n_records": 460
+          }
+        }
+      }
+    }
+  },
+  "5yr": {
+    "n_calibration": 462,
+    "n_test": 467,
+    "methods": {
+      "annual_fdc": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1415736967122759
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.1424963419724557
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.1479940599220149
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.16738676703802235
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.1939098673609243
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.2604510448872604
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.3567165313258842
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.45858413227266237
+          }
+        ],
+        "four_label_error": 0.13215223978099555,
+        "discharge_only_error": 0.13275591336465298,
+        "donor_only_error": 0.46008618411333835,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.13229977319382713,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0013487146149351009,
+              "ci95": [
+                0.000132348889287686,
+                0.0025709442456759235
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.13321205353547885,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": -0.0002128047992087536,
+              "ci95": [
+                -0.0021585405959574414,
+                0.0017945489875839215
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.18920371534244657,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.005112829344515686,
+              "ci95": [
+                0.0024316612125744774,
+                0.00791399784909483
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.0738934170522297,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0028069973581812627,
+              "ci95": [
+                -0.00023674216999041396,
+                0.006062083362472699
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.002263934129605824,
+            "ci95": [
+              0.0009355655410093186,
+              0.0036761504579217474
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0005679549078631735,
+            "ci95": [
+              -0.0007738607847773758,
+              0.00194967696410026
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        }
+      },
+      "allocation": {
+        "alpha_selected": 0.05,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1415736967122759
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.14017536954408027
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.14233425000059297
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.15224900691452128
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.1676814488739021
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.20970640649276293
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.27397224106178547
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.34619022612764716
+          }
+        ],
+        "four_label_error": 0.13093185342025507,
+        "discharge_only_error": 0.13246754593066545,
+        "donor_only_error": 0.34450116639317013,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.130967339822081,
+            "versus_persistence": {
+              "estimate": -0.0013324333717461036,
+              "ci95": [
+                -0.002730483761683261,
+                6.665725927116523e-05
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 1.628124318899735e-05,
+              "ci95": [
+                -0.001008693081653398,
+                0.0010102535697169863
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.1339677520392499,
+            "versus_persistence": {
+              "estimate": 0.0007556985037710506,
+              "ci95": [
+                -0.0012362931939548963,
+                0.0026799740963265916
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0005428937045622969,
+              "ci95": [
+                -0.0006586159601272503,
+                0.0017108904960793528
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.18637495563494372,
+            "versus_persistence": {
+              "estimate": -0.002828759707502835,
+              "ci95": [
+                -0.005929837175594821,
+                0.0002858560474481561
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0022840696370128514,
+              "ci95": [
+                0.0006275632498904398,
+                0.003976793321275814
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.07241736618474569,
+            "versus_persistence": {
+              "estimate": -0.0014760508674840148,
+              "ci95": [
+                -0.005054486432520603,
+                0.0019307781653029265
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0013309464906972484,
+              "ci95": [
+                7.184768503233623e-05,
+                0.0026339982880132632
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.0012203863607404754,
+            "ci95": [
+              -0.002671209686951937,
+              0.00018290674197425953
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0010435477688653487,
+            "ci95": [
+              0.00034700520229244625,
+              0.001730368507594868
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": -0.0002883674339875268,
+            "ci95": [
+              -0.0017440184631938344,
+              0.001162505006033316
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.00027958747387564687,
+            "ci95": [
+              -0.0006726951074714859,
+              0.0011792406355909074
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        }
+      },
+      "monthly_w2": {
+        "alpha_selected": 0.05,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1415736967122759
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.1395187075990074
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.1402030623356755
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.14569890279101663
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.15597093898665082
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.18698046132707424
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.23738988044983403
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.29547264378000787
+          }
+        ],
+        "four_label_error": 0.12988830565138973,
+        "discharge_only_error": 0.1321879584567898,
+        "donor_only_error": 0.3001908195742139,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.13095105857889203,
+            "versus_persistence": {
+              "estimate": -0.0013487146149351009,
+              "ci95": [
+                -0.0025709442456759235,
+                -0.00013234888928768617
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.1334248583346876,
+            "versus_persistence": {
+              "estimate": 0.0002128047992087536,
+              "ci95": [
+                -0.001794548987583922,
+                0.002158540595957437
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.1840908859979309,
+            "versus_persistence": {
+              "estimate": -0.005112829344515686,
+              "ci95": [
+                -0.007913997849094833,
+                -0.002431661212574482
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.07108641969404844,
+            "versus_persistence": {
+              "estimate": -0.0028069973581812627,
+              "ci95": [
+                -0.006062083362472701,
+                0.00023674216999041038
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 449,
+              "n_records": 467
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.002263934129605824,
+            "ci95": [
+              -0.0036761504579217483,
+              -0.0009355655410093201
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": -0.0005679549078631735,
+            "ci95": [
+              -0.0019496769641002606,
+              0.000773860784777375
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 449,
+            "n_records": 467
+          }
+        }
+      }
+    }
+  },
+  "10yr": {
+    "n_calibration": 480,
+    "n_test": 484,
+    "methods": {
+      "annual_fdc": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1201251884871583
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.1234326931590195
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.130525889794652
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.15352114897062716
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.18381612533270567
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.2546063964385038
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.3532114355229879
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.4575128862175544
+          }
+        ],
+        "four_label_error": 0.11165726232138672,
+        "discharge_only_error": 0.11924140698776327,
+        "donor_only_error": 0.4542937529958546,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.12066557791892529,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.11781723605660128,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.1480739628340674,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06007227247595287,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        }
+      },
+      "allocation": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1201251884871583
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.12082721224621239
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.1241356261119743
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.13584875856954035
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.152454947044058
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.19506684119622578
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.25845215775224506
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.32854820221863945
+          }
+        ],
+        "four_label_error": 0.11165726232138672,
+        "discharge_only_error": 0.11924140698776327,
+        "donor_only_error": 0.3518329144540671,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.12066557791892529,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.11781723605660128,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.1480739628340674,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06007227247595287,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        }
+      },
+      "monthly_w2": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.1201251884871583
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.12030764717865719
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.12275300197184477
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.13124982941421015
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.14436833936743282
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.17834774115658106
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.2318065268643323
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.2911216602531015
+          }
+        ],
+        "four_label_error": 0.11165726232138672,
+        "discharge_only_error": 0.11924140698776327,
+        "donor_only_error": 0.294712253949686,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.12066557791892529,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.11781723605660128,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.1480739628340674,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06007227247595287,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 464,
+              "n_records": 484
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 464,
+            "n_records": 484
+          }
+        }
+      }
+    }
+  },
+  "5yr_shifted": {
+    "n_calibration": 494,
+    "n_test": 505,
+    "methods": {
+      "annual_fdc": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.13551525538309026
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.1383935625925369
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.145209289399772
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.16644110540545598
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.19491993358381346
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.2632163423279693
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.36092284943863184
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.46484591035134415
+          }
+        ],
+        "four_label_error": 0.12758528303834057,
+        "discharge_only_error": 0.1300633057510016,
+        "donor_only_error": 0.45769059098352854,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.13328559012738259,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.001787475004993253,
+              "ci95": [
+                0.0004055522566768009,
+                0.003152999422685708
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.12684102137462058,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.001009564113492961,
+              "ci95": [
+                -0.0009362125714630562,
+                0.003090068114241411
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.18259282970011811,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.004603292776867738,
+              "ci95": [
+                0.002045220926133374,
+                0.007196648302484847
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06762169095124106,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.000675051222208468,
+              "ci95": [
+                -0.0018147762900680015,
+                0.003231269702146522
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.002018845779390605,
+            "ci95": [
+              0.0008554077427803955,
+              0.0031973931026017407
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0013985195592431073,
+            "ci95": [
+              -6.643029935091469e-05,
+              0.0028683637908910016
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        }
+      },
+      "allocation": {
+        "alpha_selected": 0.0,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.13551525538309026
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.13560362894284375
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.13875894547748366
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.15039493412070185
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.16666806804076
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.20974932326277596
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.276044440906617
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.34971675774142885
+          }
+        ],
+        "four_label_error": 0.12758528303834057,
+        "discharge_only_error": 0.1300633057510016,
+        "donor_only_error": 0.3478263135082958,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.13328559012738259,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.001787475004993253,
+              "ci95": [
+                0.0004055522566768009,
+                0.003152999422685708
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.12684102137462058,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.001009564113492961,
+              "ci95": [
+                -0.0009362125714630562,
+                0.003090068114241411
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.18259282970011811,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.004603292776867738,
+              "ci95": [
+                0.002045220926133374,
+                0.007196648302484847
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06762169095124106,
+            "versus_persistence": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.000675051222208468,
+              "ci95": [
+                -0.0018147762900680015,
+                0.003231269702146522
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.002018845779390605,
+            "ci95": [
+              0.0008554077427803955,
+              0.0031973931026017407
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0013985195592431073,
+            "ci95": [
+              -6.643029935091469e-05,
+              0.0028683637908910016
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        }
+      },
+      "monthly_w2": {
+        "alpha_selected": 0.05,
+        "calibration_grid": [
+          {
+            "alpha": 0.0,
+            "error": 0.13551525538309026
+          },
+          {
+            "alpha": 0.05,
+            "error": 0.13382131565616667
+          },
+          {
+            "alpha": 0.1,
+            "error": 0.13483507523673724
+          },
+          {
+            "alpha": 0.2,
+            "error": 0.14121255585420908
+          },
+          {
+            "alpha": 0.3,
+            "error": 0.15221249777913257
+          },
+          {
+            "alpha": 0.5,
+            "error": 0.18387234375774766
+          },
+          {
+            "alpha": 0.75,
+            "error": 0.2359647373206899
+          },
+          {
+            "alpha": 1.0,
+            "error": 0.2969704658745981
+          }
+        ],
+        "four_label_error": 0.12556643725894998,
+        "discharge_only_error": 0.1286647861917585,
+        "donor_only_error": 0.3049012562521181,
+        "attributes": {
+          "bfi": {
+            "normalized_mae": 0.13149811512238938,
+            "versus_persistence": {
+              "estimate": -0.001787475004993253,
+              "ci95": [
+                -0.003152999422685708,
+                -0.0004055522566768011
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "rb_flashiness": {
+            "normalized_mae": 0.12583145726112763,
+            "versus_persistence": {
+              "estimate": -0.001009564113492961,
+              "ci95": [
+                -0.003090068114241412,
+                0.0009362125714630555
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "runoff_ratio": {
+            "normalized_mae": 0.17798953692325037,
+            "versus_persistence": {
+              "estimate": -0.004603292776867738,
+              "ci95": [
+                -0.007196648302484847,
+                -0.0020452209261333752
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          },
+          "snow_fraction": {
+            "normalized_mae": 0.06694663972903257,
+            "versus_persistence": {
+              "estimate": -0.000675051222208468,
+              "ci95": [
+                -0.003231269702146524,
+                0.0018147762900679984
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            },
+            "versus_w2_blend": {
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_sites": 485,
+              "n_records": 505
+            }
+          }
+        },
+        "four_labels": {
+          "versus_persistence": {
+            "estimate": -0.002018845779390605,
+            "ci95": [
+              -0.0031973931026017415,
+              -0.0008554077427803963
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        },
+        "discharge_only_bfi_flashiness": {
+          "versus_persistence": {
+            "estimate": -0.0013985195592431073,
+            "ci95": [
+              -0.002868363790891002,
+              6.643029935091466e-05
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          },
+          "versus_w2_blend": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "n_sites": 485,
+            "n_records": 505
+          }
+        }
+      }
+    }
+  }
+}

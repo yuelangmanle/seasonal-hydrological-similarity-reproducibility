@@ -1,0 +1,137 @@
+{
+  "primary": {
+    "FDC": {
+      "fdc_weight": 0.0,
+      "calibration_score": 0.4626598276719566,
+      "test_score": 0.45286330628966187,
+      "unique_donor_counts": {
+        "8": 16,
+        "9": 87,
+        "10": 382
+      }
+    },
+    "conditional": {
+      "fdc_weight": 0.0,
+      "calibration_score": 0.2720894407861551,
+      "test_score": 0.2904733733239142,
+      "unique_donor_counts": {
+        "7": 4,
+        "8": 26,
+        "9": 61,
+        "10": 394
+      }
+    },
+    "OT": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.3528389793726255,
+      "test_score": 0.3402723364016408,
+      "unique_donor_counts": {
+        "7": 3,
+        "8": 13,
+        "9": 73,
+        "10": 396
+      }
+    },
+    "allocation": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.3200627491407144,
+      "test_score": 0.3251230650863664,
+      "unique_donor_counts": {
+        "7": 3,
+        "8": 29,
+        "9": 77,
+        "10": 376
+      }
+    },
+    "coverage_adjusted_allocation": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.3212095952735567,
+      "test_score": 0.3251023876138378,
+      "unique_donor_counts": {
+        "7": 4,
+        "8": 29,
+        "9": 76,
+        "10": 376
+      }
+    },
+    "monthly_log_mean": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.3034001042473999,
+      "test_score": 0.31269905909270557,
+      "unique_donor_counts": {
+        "7": 2,
+        "8": 31,
+        "9": 62,
+        "10": 390
+      }
+    },
+    "monthly_regime": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.30024184340947113,
+      "test_score": 0.30438822073988636,
+      "unique_donor_counts": {
+        "7": 6,
+        "8": 25,
+        "9": 62,
+        "10": 392
+      }
+    }
+  },
+  "unique_donors": {
+    "FDC": {
+      "fdc_weight": 0.0,
+      "calibration_score": 0.4625263500359098,
+      "test_score": 0.4517847770141214,
+      "unique_donor_counts": {
+        "10": 485
+      }
+    },
+    "conditional": {
+      "fdc_weight": 0.0,
+      "calibration_score": 0.2707565311069991,
+      "test_score": 0.289932876680227,
+      "unique_donor_counts": {
+        "10": 485
+      }
+    },
+    "allocation": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.320207140245214,
+      "test_score": 0.32453898795574926,
+      "unique_donor_counts": {
+        "10": 485
+      }
+    },
+    "OT": {
+      "fdc_weight": 0.25,
+      "calibration_score": 0.3513839372724215,
+      "test_score": 0.34022416992855775,
+      "unique_donor_counts": {
+        "10": 485
+      }
+    }
+  },
+  "paired": {
+    "monthly_log_mean": {
+      "difference": -0.022225685768791414,
+      "ci95": [
+        -0.036598068458115064,
+        -0.008516512333728878
+      ]
+    },
+    "monthly_regime": {
+      "difference": -0.01391484741597218,
+      "ci95": [
+        -0.02496960941475308,
+        -0.0035570369035101456
+      ]
+    },
+    "coverage_adjusted_allocation": {
+      "difference": -0.03462901428992366,
+      "ci95": [
+        -0.048367205439347964,
+        -0.021515445486861833
+      ]
+    }
+  }
+}

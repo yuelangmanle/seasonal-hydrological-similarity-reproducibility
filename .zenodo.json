@@ -1,0 +1,18 @@
+{
+  "title": "Seasonal conditioning improves distribution-based hydrological similarity: reproduction materials",
+  "description": "Version 1.0.0 of the reproducibility software and derived inputs for monthly conditional Wasserstein hydrological similarity. Includes fixed station-separated evaluations, regional comparisons, GEnS temperate-zone analyses, monthly location/shape ablation, plotting scripts and a raw Caravan rebuild workflow. MIT applies to original software only; derived data retain source rights as described in RIGHTS.md and DATA_PROVENANCE.md.",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {"name": "Deng, Zijie", "affiliation": "Jiangxi Provincial Key Laboratory of Water Resources Allocation and Efficient Utilization, Jiangxi University of Water Resources and Electric Power"},
+    {"name": "Xia, Yu", "affiliation": "Jiangxi Provincial Key Laboratory of Water Resources Allocation and Efficient Utilization, Jiangxi University of Water Resources and Electric Power"},
+    {"name": "Yu, Jiyang", "affiliation": "Jiangxi Provincial Key Laboratory of Water Resources Allocation and Efficient Utilization, Jiangxi University of Water Resources and Electric Power"},
+    {"name": "Liao, Zhenyu", "affiliation": "School of Geography and Environment, Jiangxi Normal University"}
+  ],
+  "license": "MIT",
+  "keywords": ["hydrological similarity", "Caravan", "Wasserstein distance", "seasonality", "regionalisation", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/yuelangmanle/seasonal-hydrological-similarity-reproducibility", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.15530022", "relation": "isDerivedFrom", "scheme": "doi"}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": "Exploratory revision analysis, specified before calculating the additional scores; not a preregistered study",
+  "classification": "Caravan catchment-majority HydroATLAS GEnS climate zones (clz_cl_smj); include all official zone labels containing temperate; verify official legend before evaluating scores",
+  "designs": [
+    "pooled_original_split",
+    "temperate_test_with_original_global_donors_and_weights",
+    "temperate_only_original_split",
+    "temperate_only_200km_donor_exclusion"
+  ],
+  "partition": "Intersect the original donor/calibration/test index sets with climate membership, never resplit according to outcomes",
+  "methods": [
+    "FDC",
+    "allocation",
+    "original_OT",
+    "monthly",
+    "geographic",
+    "annual_384",
+    "monthly_regime",
+    "quantile_location",
+    "quantile_shape"
+  ],
+  "ablation": "Reshape monthly quantiles to n x 12 x 32; subtract each monthly quantile mean to obtain centered shape. Mean squared full distance equals location distance plus shape distance, to numerical precision. Quantile-location is a quadrature approximation to mean transformed flow, not raw monthly mean flow.",
+  "weights": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "fixed_unmixed": [
+    "FDC",
+    "geographic",
+    "annual_384"
+  ],
+  "donors": 10,
+  "predictor": "Per-attribute median of donor records; exclude target physical station; preserve original record-based donor convention",
+  "scaling": "Attribute IQR and distance medians computed from the actual donor subset only. Also report fixed original-donor-IQR scores for comparisons across donor designs.",
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 2026091781,
+    "unit": "physical test station",
+    "paired": true,
+    "percentiles": [
+      2.5,
+      97.5
+    ],
+    "interpretation": "individual exploratory intervals, not multiplicity-adjusted or spatial-block intervals"
+  },
+  "reporting": "All nine methods and all contrasts against monthly, including null or adverse results",
+  "subgroups": [
+    "all test records",
+    "cool temperate zones",
+    "warm temperate zones",
+    "each source dataset",
+    "lower and higher snow fraction using the donor median, with ties assigned to lower"
+  ],
+  "subgroup_rule": "Use already selected predictions and weights; no subgroup-specific tuning; report sample counts and raw attribute errors",
+  "falsification": "Do not infer climate-specific differences merely from differing interval significance, and do not infer causal hydrological mechanisms from attribute-transfer gains",
+  "temperate_zone_ids": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "cool_temperate_zone_ids": [
+    8,
+    9,
+    10
+  ],
+  "warm_temperate_zone_ids": [
+    11,
+    12
+  ]
+}

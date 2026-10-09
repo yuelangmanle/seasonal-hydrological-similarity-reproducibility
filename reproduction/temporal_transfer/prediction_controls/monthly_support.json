@@ -1,0 +1,248 @@
+{
+  "3yr": {
+    "early_features": {
+      "n_records": 2279,
+      "minimum_month_n_quantiles": {
+        "0": 28.0,
+        "1": 43.78,
+        "5": 62.0,
+        "25": 84.0,
+        "50": 84.0,
+        "75": 84.0,
+        "95": 84.0,
+        "99": 84.0,
+        "100": 84.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.3010752688172043,
+        "1": 0.476752688172043,
+        "5": 0.6666666666666666,
+        "25": 0.989247311827957,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 13,
+      "n_records_any_month_lt_50pct": 24
+    },
+    "final_evaluable": {
+      "n_records": 2273,
+      "minimum_month_n_quantiles": {
+        "0": 28.0,
+        "1": 43.72,
+        "5": 62.0,
+        "25": 84.0,
+        "50": 84.0,
+        "75": 84.0,
+        "95": 84.0,
+        "99": 84.0,
+        "100": 84.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.3010752688172043,
+        "1": 0.4764731182795699,
+        "5": 0.6666666666666666,
+        "25": 0.989247311827957,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 13,
+      "n_records_any_month_lt_50pct": 24
+    }
+  },
+  "5yr": {
+    "early_features": {
+      "n_records": 2325,
+      "minimum_month_n_quantiles": {
+        "0": 45.0,
+        "1": 84.0,
+        "5": 113.0,
+        "25": 141.0,
+        "50": 141.0,
+        "75": 141.0,
+        "95": 141.0,
+        "99": 141.0,
+        "100": 141.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.2903225806451613,
+        "1": 0.5563870967741935,
+        "5": 0.8,
+        "25": 0.9935483870967742,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 15
+    },
+    "final_evaluable": {
+      "n_records": 2319,
+      "minimum_month_n_quantiles": {
+        "0": 45.0,
+        "1": 84.0,
+        "5": 113.0,
+        "25": 141.0,
+        "50": 141.0,
+        "75": 141.0,
+        "95": 141.0,
+        "99": 141.0,
+        "100": 141.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.2903225806451613,
+        "1": 0.5559999999999999,
+        "5": 0.8,
+        "25": 0.9935483870967742,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 15
+    }
+  },
+  "10yr": {
+    "early_features": {
+      "n_records": 2422,
+      "minimum_month_n_quantiles": {
+        "0": 90.0,
+        "1": 195.21,
+        "5": 226.0,
+        "25": 282.0,
+        "50": 282.0,
+        "75": 282.0,
+        "95": 282.0,
+        "99": 282.0,
+        "100": 282.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.3,
+        "1": 0.6419354838709678,
+        "5": 0.7645161290322581,
+        "25": 0.9967741935483871,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 3
+    },
+    "final_evaluable": {
+      "n_records": 2416,
+      "minimum_month_n_quantiles": {
+        "0": 90.0,
+        "1": 195.15,
+        "5": 226.0,
+        "25": 282.0,
+        "50": 282.0,
+        "75": 282.0,
+        "95": 282.0,
+        "99": 282.0,
+        "100": 282.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.3,
+        "1": 0.6419354838709678,
+        "5": 0.7645161290322581,
+        "25": 0.9967741935483871,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 3
+    }
+  },
+  "5yr_shifted": {
+    "early_features": {
+      "n_records": 2510,
+      "minimum_month_n_quantiles": {
+        "0": 57.0,
+        "1": 93.0,
+        "5": 120.0,
+        "25": 141.0,
+        "50": 141.0,
+        "75": 141.0,
+        "95": 141.0,
+        "99": 141.0,
+        "100": 141.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.36774193548387096,
+        "1": 0.6002553191489362,
+        "5": 0.8,
+        "25": 1.0,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 4
+    },
+    "final_evaluable": {
+      "n_records": 2504,
+      "minimum_month_n_quantiles": {
+        "0": 57.0,
+        "1": 93.0,
+        "5": 120.0,
+        "25": 141.0,
+        "50": 141.0,
+        "75": 141.0,
+        "95": 141.0,
+        "99": 141.0,
+        "100": 141.0
+      },
+      "minimum_month_coverage_quantiles": {
+        "0": 0.36774193548387096,
+        "1": 0.6000851063829787,
+        "5": 0.8,
+        "25": 1.0,
+        "50": 1.0,
+        "75": 1.0,
+        "95": 1.0,
+        "99": 1.0,
+        "100": 1.0
+      },
+      "n_records_any_month_lt_2": 0,
+      "n_records_any_month_lt_16": 0,
+      "n_records_any_month_lt_32": 0,
+      "n_records_any_month_lt_50pct": 4
+    }
+  },
+  "source": {
+    "raw_directory": "Caravan v1.6 CSV input supplied separately",
+    "n_records_inputs": 2522,
+    "missing_files": [],
+    "definition": "finite nonnegative daily discharge by observed calendar month; no imputation; counts cover every early eligible row"
+  }
+}

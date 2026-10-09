@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+**/rerun/
+figures/redrawn_figures/
+verification_logs/
+raw_pipeline/data/
+raw_pipeline/results/

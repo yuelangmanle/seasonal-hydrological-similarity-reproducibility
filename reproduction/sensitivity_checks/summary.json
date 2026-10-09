@@ -1,0 +1,52 @@
+{
+  "records": 2416,
+  "physical_stations": 2337,
+  "by_region": {
+    "camels": {
+      "n_negative": 0,
+      "n_inf": 0,
+      "n_nan": 49868,
+      "n_valid": 5680643,
+      "runoff_imputed": 0,
+      "snow_imputed": 0
+    },
+    "camelsbr": {
+      "n_negative": 0,
+      "n_inf": 0,
+      "n_nan": 150353,
+      "n_valid": 8461849,
+      "runoff_imputed": 0,
+      "snow_imputed": 0
+    },
+    "camelscl": {
+      "n_negative": 0,
+      "n_inf": 0,
+      "n_nan": 117262,
+      "n_valid": 1570116,
+      "runoff_imputed": 0,
+      "snow_imputed": 0
+    },
+    "hysets": {
+      "n_negative": 0,
+      "n_inf": 0,
+      "n_nan": 70380,
+      "n_valid": 3512559,
+      "runoff_imputed": 0,
+      "snow_imputed": 0
+    },
+    "lamah": {
+      "n_negative": 0,
+      "n_inf": 0,
+      "n_nan": 62051,
+      "n_valid": 6797031,
+      "runoff_imputed": 0,
+      "snow_imputed": 0
+    }
+  },
+  "global": {
+    "n_negative": 0,
+    "n_inf": 0,
+    "runoff_imputed": 0,
+    "snow_imputed": 0
+  }
+}
