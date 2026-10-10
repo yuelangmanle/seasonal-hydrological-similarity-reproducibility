@@ -116,7 +116,7 @@ def main():
     ax = axes[1]
     label(ax, 'b', 'Observed and predicted benefit of monthly donor retrieval')
     domains = ['primary', 'camels', 'camelsbr', 'camelscl', 'hysets', 'lamah']
-    names = ['Shared\ndomains', 'CAMELS-US', 'CAMELS-BR', 'CAMELS-CL', 'HYSETS', 'LamaH']
+    names = ['Shared\ndomains', 'CAMELS-US', 'CAMELS-BR', 'CAMELS-CL', 'HYSETS', 'LamaH-CE']
     xx = np.arange(len(domains))
     means = np.array([prediction[d]['gain_mean'] for d in domains])
     ci = np.array([prediction[d]['bootstrap_95_ci']['gain_mean'] for d in domains])

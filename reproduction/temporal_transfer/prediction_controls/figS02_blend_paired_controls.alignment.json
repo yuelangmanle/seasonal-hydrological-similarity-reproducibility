@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "backend": "matplotlib",
+  "tolerance_pt": 1.5,
+  "plot_rectangles_pt": [
+    [
+      70.63936992000001,
+      199.125,
+      494.47558944,
+      306.0
+    ],
+    [
+      70.63936992000001,
+      32.39999999999999,
+      494.47558944,
+      139.27499999999998
+    ]
+  ],
+  "checks": [
+    "equal left edges",
+    "equal right edges"
+  ]
+}
