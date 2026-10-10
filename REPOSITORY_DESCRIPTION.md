@@ -2,11 +2,11 @@
 
 ## Short description
 
-Reproducible seasonal hydrological similarity analysis using monthly conditional flow distributions, climate-stratified evaluation, temporal-transfer tests, and Caravan data reconstruction.
+Code, derived inputs and verification records for the manuscript *Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection*.
 
 ## Suggested GitHub description
 
-Reproducible analysis of seasonal hydrological similarity using monthly conditional flow distributions, with climate-stratified evaluations, temporal-transfer controls, and Caravan data reconstruction workflows.
+Code and derived data for *Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection*. The repository reproduces the annual FDC and monthly conditional-flow comparisons, transfer controls, temporal-mask tests and Caravan rebuild route.
 
 ## Suggested topics
 

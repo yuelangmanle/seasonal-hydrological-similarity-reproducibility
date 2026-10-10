@@ -1,8 +1,8 @@
-# Seasonal conditioning improves distribution-based hydrological similarity
+# Reproduction materials for Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection
 
 This repository contains the code, derived inputs, plotted data, and verification records for the study **Monthly conditional flow distributions reveal seasonal mismatches in hydrological donor selection** by Zijie Deng, Yu Xia, Jiyang Yu, and Zhenyu Liao.
 
-The analysis evaluates hydrological similarity from conditional flow distributions. The central comparison is between an annual flow-duration representation and a representation that retains the joint structure of flow magnitude and month of occurrence. The repository also includes climate-stratified evaluations, resolution and donor-count controls, temporal-transfer tests, prediction controls, and a route for rebuilding derived inputs from the Caravan data release.
+The analysis compares an annual flow-duration representation with monthly conditional flow distributions that retain the joint structure of flow magnitude and month of occurrence. The repository contains climate-stratified evaluations, resolution and donor-count controls, temporal-transfer tests, prediction controls, and the workflow for rebuilding derived inputs from the Caravan data release.
 
 ## Repository layout
 
